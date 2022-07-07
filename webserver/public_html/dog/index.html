@@ -1,0 +1,222 @@
+﻿<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- 위 3개의 메타 태그는 *반드시* head 태그의 처음에 와야합니다; 어떤 다른 콘텐츠들은 반드시 이 태그들 *다음에* 와야 합니다 -->
+
+<!-- 사이트 설명 -->	
+	<meta name="description" content="">
+
+<!-- 로봇 허용 -->
+	<meta name="robots" content="index,follow">
+
+<!-- 대표 url -->	
+	<link rel="canonical" href="">
+
+<!-- 웹사이트 오픈그래프  -->
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+
+
+<!-- 모바일 앱 링크 -->
+
+<meta property="al:android:url" content="">
+<meta property="al:android:app_name" content="">
+<meta property="al:android:package" content="">
+<meta property="al:web:url" content="">
+
+<!-- user.css -->
+<link href="css/user.css" rel="stylesheet" type="text/css"><!--[if lt IE 9] user css -->
+
+<!-- 부트스트랩 -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<title></title>
+
+</head>
+
+<body>
+	<!-- jQuery (부트스트랩의 자바스크립트 플러그인을 위해 필요합니다) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- 모든 컴파일된 플러그인을 포함합니다 (아래), 원하지 않는다면 필요한 각각의 파일을 포함하세요 -->
+    <script src="js/bootstrap.min.js"></script>
+
+		
+	<div>
+		<!--- 헤더 부분 -->
+		<header>
+			<div class="container row" >
+				<div class="col-xs-4">
+					<img src="images/logo.png" class="left-block" width="40%">
+				</div>		
+				<div class="col-xs-4" align="center">
+					<a href="#"><p>강아지나라</p></a>
+				</div>		
+			
+				<div class="col-xs-4 hidden-sm hidden-md hidden-lg" align="right">
+					<div class="dropdown">
+					  <button class="btn btn-default dropdown-toggle btn-xs" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+						<span class="glyphicon glyphicon-menu-hamburger"></span>
+					  </button>
+					  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">홈</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">메뉴1</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">메뉴2</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">메뉴3</a></li>
+					  </ul>
+					</div>
+				</div>		
+			</div>
+		</header>  
+	
+			
+		<!--- 캐러셀 -->
+
+		<section>
+
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2000" data-pause="none">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="1"></li>	
+			<li data-target="#carousel-example-generic" data-slide-to="2"></li>				
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+			
+			<div class="item active">
+			  <a href="#"  target='_blank'><img src="images/dog.png" width="100%" alt="강아지"></a>
+			  <div class="carousel-caption">
+				...
+			  </div>
+			</div>
+			
+			<div class="item">
+			  <a href="#" target='_blank'><img src="images/dog2.png" width="100%" alt="강아지2"></a>
+			  <div class="carousel-caption">
+				...
+			  </div>
+			</div>
+			
+			<div class="item">
+			  <a href="#" target='_blank'><img src="images/dog3.png" width="100%" alt="강아지3"></a>
+			  <div class="carousel-caption">
+				...
+			  </div>
+			</div>
+
+
+		  </div>
+
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		  </a>
+		</div>
+		
+		</section>
+
+
+		<!-- 메뉴 -->
+		<section>
+				<ul class="row addMenu">
+					<li class="col-xs-4"><a href="#"><p>활달한<br>강아지</p></a></li>
+					<li class="col-xs-4"><a href="#"><p>온순한<br>강아지</p></a></li>
+					<li class="col-xs-4"><a href="#"><p>사납복종<br>강아지</p></a></li>
+				</ul>
+		</section>	
+				
+		<section>
+
+			<div class="row">
+			  
+			  <div class="col-sm-4 col-md-4">
+				<div class="thumbnail">
+				  <img src="images/dog.png" width="100%" alt="...">
+				  <div class="caption">
+					<h3>활달한 강아지</h3>
+					  <dl>
+						<dt>요크셔 테리어 </dt>
+						<dd>생기있고 활달한 성질을 가지고 있으며 자신보다 몸집이 큰 개나 집에 들어온 침입자를 겁내는 일이 없어 좋은 번견이고 우리나라 최고의의 가정견으로 자리 잡고 있다.</dd>
+						
+						<dt>말티즈 </dt>
+						<dd>애정이 많고, 충실하며 활발한 성격을 소유하고있다. 이 종은 1급 가정견으로 요크셔테리어와 함께 우리나라 최고의 가정견으로 자리잡고 있다.</dd>
+
+						<dt>포메 라이언</dt>
+						<dd>활기차고 명랑한 개로 유명하고, 걷는 모습이 우아하다.충실하고 우호적인 성격이 가장 먼저 거론된다. </dd>
+
+					   <dt>골든 리트리버</dt>
+					   <dd>이 견종은 충성심이 강하고 성격이 활달하여 어린아이나 여성이 상대하기에 적합한 견종이다.참을성 또한 강하여 현재는실내에서도 많이 길러지고 있다.</dd>
+					</dl>
+					<p><a href="#" class="btn btn-primary btn-block" role="button">Button</a></p>
+				  </div>
+				</div>
+			  </div>
+
+			  <div class="col-sm-4 col-md-4">
+				<div class="thumbnail">
+				  <img src="images/dog2.png" width="100%" alt="...">
+				  <div class="caption">
+					<h3>온순한강아지</h3>
+					<dl>
+						<dt>쉬즈</dt>
+						<dd> 얼굴에서 풍기는 모습처럼 온순, 쉽게 친숙해지고 우호적이며,어린아이나 여성들이 기르기에 적합한 견종이다.</dd> 
+
+					   <dt>퍼그</dt>
+					   <dd>매우 사려가 깊고 사랑스러운 견종이며 그다지 손질이 필요하지 않고 식사량에 비해 많은 운동량이 필요하지 않다.</dd>
+					   
+					   <dt>래브라도 리트리버</dt>
+					   <dd>침착하고 영리하여 어린이들을 안심하고 맡길 수 있다. 사람을 즐겁게 해주려는 성질이 있다 공을 가지고 노는 것을 가장  좋아한다. 현재 맹인 안내견과 마약견으로 사용중이다. 온순한 강아지를 좋아하는 분에게는 적합한 견종이다.</dd>
+					 </dl>
+					<p><a href="#" class="btn btn-primary btn-block" role="button">Button</a></p>
+				  </div>
+				</div>
+			  </div>
+
+			  <div class="col-sm-4 col-md-4">
+				<div class="thumbnail">
+				  <img src="images/dog3.png" width="100%" alt="...">
+				  <div class="caption">
+					<h3>사납지만 복종적인 강아지</h3>
+					   <dl>
+						  <dt>미니어쳐핀셔</dt>
+						  <dd>경계심이 강하고 영리하며 작은 몸집에 비해 매우 용감하다. 주인에게 매우 복종적이며 작은 몸집에 보디가드 역할을 충실히 수행한다.</dd>
+
+						  <dt>푸들 </dt>
+						  <dd>사납진 않으나, 상당히 복종적이며, 지능지수가 애완견종 중 가장 뛰어나다.</dd>
+						
+						  <dt>폭스테리어</dt>
+						  <dd>가정에서 키우기에 적합한 품종이다.  보호본능이 강하고 정이 많다. 하지만 사냥을 하던 본능이 조금은 남아있어 사나운 면이 있다. 이종을 좋은 품종으로 기르기 위해서는 어릴 때부터 엄한 훈련이 필요하기도 하다.</dd>
+					   </dl>
+					<p><a href="#" class="btn btn-primary btn-block" role="button">Button</a></p>
+				  </div>
+				</div>
+			  </div>	
+
+			</div>
+		
+		</section>	
+
+
+		<!--- 풋터 -->
+		<footer>
+				<address>
+				<div align="left">
+				<P>copyright 회사명 xxx-xxxx-xxxx</P>
+				</div>
+		</footer>	
+	</div>
+</body>
+</html>

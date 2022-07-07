@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>안은아의 YouTube</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/photo.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+</head>
+
+<script type="text/javascript">
+    window.onload = function () {
+        var target = document.getElementsByTagName('a')[0];
+        target.addEventListener('mouseover', function () {
+            target.style.color = "red";
+        });
+
+        target.addEventListener('mouseout', function () {
+            target.style.color = "white";
+        });
+
+        var clock = document.getElementById('clock');
+        setInterval(function () {
+            var now = new Date();
+            clock.innerHTML = now.toString();
+        }, 1000);
+    };
+
+</script>
+
+<body>
+    <header>
+        <h3 id="clock"></h3>
+        <nav>
+            <ul class="upper_ul">
+                <li class="upper_li">
+                    <a class="menu_link" href="/~it2011810/youtube.html">YouTube</a>
+                </li>
+
+                <li class="upper_li">
+                    <a class="menu_link" href="/~it2011810/project.html">Project</a>
+                </li>
+
+                <li class="upper_li">
+                    <a class="menu_link" href="/~it2011810/photo.html">Photo</a>
+                </li>
+
+                <li class="upper_li">
+                    <a class="menu_link" href="/~it2011810/aboutme.html">Introduce</a>
+                </li>
+
+                <li class="upper_li">
+                    <a class="menu_link" href="index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section>
+        <article>
+            <h2>운영중인 YouTube 채널</h2>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/o0hJw5sKmV0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br><br>2021.05.18 업로드 영상<br>
+            [TXT] 컨셉 포토 BOY ver<br>
+            #TOMORROW_X_TOGETHER #FREEZE #2021_05_31<br>
+        </article>
+        <hr>
+        <article>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/uLq1IBiRFZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br><br>2021.03.14 업로드 영상<br>
+            tvn 스타트업 드라마 패러디 영상<br>
+            #TOMORROW_X_TOGETHER #스타트업 #수지 #수빈<br>
+            <br>
+        </article>
+    </section>
+
+
+    <footer>
+        <b>IT공학 안은아</b>
+        <p>[숙명여자대학교] <a href="http://www.sookmyung.ac.kr/sookmyungkr/index.do">http://www.sookmyung.ac.kr/sookmyungkr/index.do</a></p>
+        <p>[네이버 블로그] <a href="https://m.blog.naver.com/eunaahn">https://m.blog.naver.com/eunaahn</a></p>
+    </footer>
+</body>
+
+</html>

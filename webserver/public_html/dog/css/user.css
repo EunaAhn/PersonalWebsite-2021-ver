@@ -1,0 +1,61 @@
+﻿@charset "utf-8";
+
+body {
+	font: 14px 맑은 고딕;
+}
+
+header {
+	position:relative;
+	background-color:#121737;	
+	color:black;
+	font: 22px 맑은 고딕;	
+	padding:1vw
+}
+
+header p {
+	color:white;
+	font-size:4vw;
+	font:나눔 고딕;	
+	margin-top:5px;
+}
+
+footer {
+	padding: 15px;
+	background-color:black;
+	color:#fff;
+	text-align:center;
+	clear: both;
+}
+
+header, section, footer, aside, article, figure, button {
+	display: block;
+}
+
+li{
+	list-style:none;
+}
+
+.explore_width {
+	max-width:1000px;
+}
+
+.addMenu {
+	background-color:#121737; 	
+	padding:3vw;
+}
+.addMenu p {
+	display:block
+}
+
+.addMenu p {
+	color:white;
+	font-size:5vw;
+	font:나눔 고딕
+	margin-top:5px;
+	margin-bottom:5px;
+	text-align:center;
+}
+
+@media (max-width: 991px){
+	.addMenu img {width:0px}	
+}

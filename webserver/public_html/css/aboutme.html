@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>안은아의 Introduce</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/aboutme.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+</head>
+
+<script type="text/javascript">
+    window.onload = function () {
+        var target = document.getElementsByTagName('a')[0];
+        target.addEventListener('mouseover', function () {
+            target.style.color = "red";
+        });
+
+        target.addEventListener('mouseout', function () {
+            target.style.color = "white";
+        });
+
+        var clock = document.getElementById('clock');
+        setInterval(function () {
+            var now = new Date();
+            clock.innerHTML = now.toString();
+        }, 1000);
+    };
+
+</script>
+
+<body>
+    <header>
+        <h3 id="clock"></h3>
+        <nav>
+            <ul class="upper_ul">
+                <li class="upper_li">
+                    <a class="menu_link" href="/~it2011810/youtube.html">YouTube</a>
+                </li>
+
+                <li class="upper_li">
+                    <a class="menu_link" href="/~it2011810/project.html">Project</a>
+                </li>
+
+                <li class="upper_li">
+                    <a class="menu_link" href="/~it2011810/photo.html">Photo</a>
+                </li>
+
+                <li class="upper_li">
+                    <a class="menu_link" href="/~it2011810/aboutme.html">Introduce</a>
+                </li>
+
+                <li class="upper_li">
+                    <a class="menu_link" href="index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section>
+        <article>
+            <h1>앞으로의 목표</h1>
+            <p>
+                ios나 안드로이드 앱 개발자<br>
+                지금까지 배운 프로그래밍 언어들: C, Python, Java, Swift, HTML, CSS, Java Script, XML<br>
+            </p>
+        </article>
+
+        <article>
+            <h1>안은아의 활동</h1>
+            <ul class="port_ul">
+                <li class="port_li">
+                    <a href="https://github.com/EunaAhn"><b>https://github.com/EunaAhn</b></a>
+                    <p>시작한지 얼마 되지 않은 깃허브입니다. 앞으로 작성한 코드들을 올릴 곳입니다.</p>
+                </li>
+
+                <li>
+                    <a href="https://www.youtube.com/channel/UCxoaHcB-PD80kxJ9GLjyn8A"> <b>https://www.youtube.com/channel/UCxoaHcB-PD80kxJ9GLjyn8A</b></a>
+                    <p>운영하는 유튜브 채널입니다. K-Pop에 관심이 많아 직접 관련 영상을 모아 편집하고 업로드하는 곳입니다!</p>
+                </li>
+
+                <li>
+                    <a href="https://m.blog.naver.com/eunaahn"> <b>https://m.blog.naver.com/eunaahn</b></a>
+                    <p>안은아의 블로그입니다. 블로그 포스트 활동은 다시 준비중입니다.</p>
+                </li>
+            </ul>
+        </article>
+
+        <article>
+            <h1>프로젝트</h1>
+            <p>
+                반려동물 맞춤 카메라앱 <br>
+                개인 홈페이지<br>
+                고등학교 시절 교지 웹사이트, 안드로이드 앱 개발<br>
+                포토샵과 UI 디자인에도 관심이 있습니다.
+            </p>
+        </article>
+    </section>
+
+
+    <footer>
+        <b>IT공학 안은아</b>
+        <p>[숙명여자대학교] <a href="http://www.sookmyung.ac.kr/sookmyungkr/index.do">http://www.sookmyung.ac.kr/sookmyungkr/index.do</a></p>
+        <p>[네이버 블로그] <a href="https://m.blog.naver.com/eunaahn">https://m.blog.naver.com/eunaahn</a></p>
+    </footer>
+</body>
+</html>

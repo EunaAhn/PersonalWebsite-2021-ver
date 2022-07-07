@@ -1,0 +1,70 @@
+﻿/* common.css */
+
+@font-face {
+    font-family: 'Jua', sans-serif;
+}
+
+body {
+    font-family: 'Jua', sans-serif;
+    font-size: 20px;
+    background-color: #0068b8;
+}
+
+/* 메뉴바 ul, li */
+ul.upper_ul {
+    overflow: auto;
+    position: relative;
+}
+
+li.upper_li {
+    float: right;
+    text-align: center;
+    position: relative;
+    list-style-type: none;
+    font-weight: normal;
+    position: relative;
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+    background-color: #0068b8;
+    box-shadow: 2px 2px 5px #111;
+    border-radius: 8px;
+}
+
+header {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px 20px 10px 0;
+    border-radius: 8px;
+}
+
+section {
+    padding: 20px 10px 20px 10px;
+    background-color: #ffffff;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0 10px 0;
+    background-color: #ffffff;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+    a.menu_link {
+        color: #ffffff;
+    }
+
+.upper_li:hover {
+    background-color: #0068b8;
+    border-radius: 8px;
+}
