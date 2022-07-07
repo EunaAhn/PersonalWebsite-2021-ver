@@ -6,8 +6,6 @@
 
 mm서버: http://mm.sookmyung.ac.kr/~it2011810/
 
-<img width="600" alt="데이터베이스 정의" src="https://user-images.githubusercontent.com/81062538/177781952-6f5d5475-5f18-4cc2-abdb-7c828711e206.png">
-
 1. 메뉴 구성 및 콘텐츠/레이아웃 디자인
 
 일단 전체적인 레이아웃은 세 부분으로 나누었다.
@@ -38,17 +36,17 @@ mm서버: http://mm.sookmyung.ac.kr/~it2011810/
 
 1. Index.html코드
 
-<img width="600" alt="Index.html코드1" src="https://user-images.githubusercontent.com/81062538/177787653-32cccf7f-4391-4947-b035-f1b1d8700814.png">
+<img width="600" alt="Index.html코드1" src="https://user-images.githubusercontent.com/81062538/177790736-915dc181-0a32-4f25-a9c9-facc5dca5cca.png">
 
-<img width="600" alt="Index.html코드2" src="https://user-images.githubusercontent.com/81062538/177787917-530c3e3f-b836-4754-9fd9-f99db12923f8.png">
+<img width="600" alt="Index.html코드2" src="https://user-images.githubusercontent.com/81062538/177790855-3ad83b88-a632-4fc8-8dde-27b2600624fc.png">
 
-<img width="600" alt="Index.html코드3" src="https://user-images.githubusercontent.com/81062538/177788162-feb88a41-1956-44b6-adb9-506661660e3c.png">
+<img width="600" alt="Index.html코드3" src="https://user-images.githubusercontent.com/81062538/177790972-24c28425-99dd-4437-a470-0c8b209b2be8.png">
 
 
 2. aboutme.html코드 일부
 
-<img width="600" alt="Index.html코드1" src="https://user-images.githubusercontent.com/81062538/177788583-15222365-5641-43ad-be02-d494e53bdb4f.png">
+<img width="600" alt="Index.html코드1" src="https://user-images.githubusercontent.com/81062538/177791074-70193756-ef87-4af6-824f-bd2c996577d9.png">
 
 3. index.css
 
-<img width="600" alt="Index.html코드1" src="https://user-images.githubusercontent.com/81062538/177788928-af07824d-1a2f-49a4-a6ae-170420244edb.png">
+<img width="600" alt="Index.html코드1" src="https://user-images.githubusercontent.com/81062538/177791180-957f8b8c-19b3-42ef-b056-f39a850d1953.png">
