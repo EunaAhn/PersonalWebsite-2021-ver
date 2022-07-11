@@ -5,7 +5,9 @@
 ## 2021 웹프로그래밍기초 수업 수강시 만든 개인사이트
 
 mm서버: http://mm.sookmyung.ac.kr/~it2011810/
+
 추가해야 되는 UI디자인 포트폴리오1: https://www.figma.com/file/gRbUC8eIMzLWVZGyVEmOuM/%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%84%9C%EB%B9%84%EC%8A%A4_%EC%99%80%ED%94%84
+
 추가해야 되는 UI디자인 포트폴리오2: 추가해야 되는 UI디자인 포트폴리오: https://www.figma.com/file/gRbUC8eIMzLWVZGyVEmOuM/%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%84%9C%EB%B9%84%EC%8A%A4_%EC%99%80%ED%94%84
 
 1. 메뉴 구성 및 콘텐츠/레이아웃 디자인
